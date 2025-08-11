@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uaradei.github.io/sitemap.xml
