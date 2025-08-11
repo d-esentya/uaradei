@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uaradei — O Dia Verdadeiro</title>
+  <meta name="description" content="Uaradei: viver plenamente o dia — mar, amigos, resenha e gratidão.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <style>
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--font-sans);line-height:1.6}
+    .wrap{max-width:1000px;margin:0 auto;padding:var(--space-6) var(--space-4)}
+    .skip{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip:focus{left:16px;top:16px;width:auto;height:auto;background:#fff;color:#000;padding:8px 12px;border-radius:8px}
+    header.hero{background:radial-gradient(900px 360px at 20% -10%, #1f2937, transparent), linear-gradient(180deg, var(--bg), var(--bg));}
+    .brand{display:flex;align-items:center;gap:var(--space-4);}
+    .brand img{width:112px;height:auto;display:block}
+    h1{font-size:var(--fs-xxl);margin:0}
+    .tag{color:var(--ink-muted);margin:var(--space-3) 0 var(--space-5)}
+    .cta{display:flex;gap:var(--space-3);flex-wrap:wrap}
+    .btn{display:inline-block;padding:10px 16px;border-radius:999px;background:var(--accent);color:#001014;text-decoration:none;font-weight:700}
+    .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+    main .placeholder{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:var(--radius);padding:var(--space-5);color:var(--ink-muted)}
+    footer{color:#8ea0b8;border-top:1px solid var(--line);margin-top:var(--space-6);padding:var(--space-4) 0}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="hero" role="banner">
+    <div class="wrap">
+      <div class="brand">
+        <img src="assets/logo-256.png" alt="Logotipo Uaradei: sol âmbar sobre a palavra UARADEI, fundo azul">
+        <div>
+          <h1>Uaradei</h1>
+          <p class="tag">O dia verdadeiro. Todo dia é dia — de mar ou de chuva, de encontro e de gratidão.</p>
+          <nav class="cta" aria-label="Ações principais">
+            <a class="btn" href="#manifesto">Manifesto</a>
+            <a class="btn ghost" href="#ancestralidade">Ancestralidade</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo" class="wrap" role="main">
+    <section class="placeholder">
+      <p><strong>Passo 2B concluído.</strong> Assets atualizados a partir do novo logo sem o ícone do Instagram. Próximo passo: criar <code>styles/base.css</code> e as seções "Manifesto", "Ancestralidade", "Press" e "FAQ".</p>
+    </section>
+  </main>
+
+  <footer class="wrap" role="contentinfo">
+    <p>© 2025 Uaradei • Site estático (GitHub Pages). Texto sob CC BY 4.0 • Código MIT.</p>
+  </footer>
+</body>
+</html>
